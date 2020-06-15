@@ -4,13 +4,10 @@
 а указать явно, в программе.
 """
 
-my_list = ['asd', 2343, ['qwee', 'sfddsgf'], (12, 35, 'gfsgdfg'), {234, '2343'}, {"a":1, "b":2}]
+my_list = ['asd', 2343, ['qwee', 'sfddsgf'], (12.45, 35, 'gfsgdfg'), {234, '2343'}, {"a":1, "b":2.656}]
 
 print (my_list)
 print (type(my_list))
 
 for item in my_list:
     print (item, " ", type(item))
-
-
-
